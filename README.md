@@ -1,4 +1,4 @@
-# $\KaTeX$ Bookmarklets
+<h1>$\KaTeX$ Bookmarklets</h1>
 
 Drag or copy these bookmarklets to your bookmarks to render math such as $x$
 (inline math) or $$y = f(x)$$ (display math) using $\KaTeX$'s autorender
