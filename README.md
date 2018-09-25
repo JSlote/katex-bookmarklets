@@ -1,11 +1,11 @@
-<h1>$\KaTeX$ Bookmarklets</h1>
+# Render maths with $\KaTeX$
 
-Drag or copy these bookmarklets to your bookmarks to render math such as `$x$`
-(inline math) or `$$y = f(x)$$` (display math) using $\KaTeX$'s autorender
+Drag or copy these bookmarklets to your bookmarks to render maths such as `$x$`
+(inline equation) or `$$y = f(x)$$` (display equation) using $\KaTeX$'s autorender
 extension.
 
 - <a href="javascript:(function(){window.renderMath=function(){renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false});};if(!window.katex){css=document.createElement('link');css.rel='stylesheet';css.href='https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css';css.crossorigin='anonymous';script=document.createElement('script');script.src='https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js';script.async=false;script.crossorigin='anonymous';autoRender=document.createElement('script');autoRender.src='https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js';autoRender.async=false;autoRender.onload=window.renderMath;autoRender.crossorigin='anonymous';document.head.appendChild(css);document.head.appendChild(script);document.head.appendChild(autoRender);}else{renderMath();}})();">Render Math (once)</a>
 - <a href="javascript:(function(){window.renderMath=function(){window.setTimeout(window.renderMath,1000);renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false});};if(!window.katex){css=document.createElement('link');css.rel='stylesheet';css.href='https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css';css.crossorigin='anonymous';script=document.createElement('script');script.src='https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js';script.async=false;script.crossorigin='anonymous';autoRender=document.createElement('script');autoRender.src='https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js';autoRender.async=false;autoRender.onload=window.renderMath;autoRender.crossorigin='anonymous';document.head.appendChild(css);document.head.appendChild(script);document.head.appendChild(autoRender);}else{renderMath();}})();">Render Math (cont.)</a>
 
 You can click these links before you add the bookmarklets to make sure that
-  they work on this page.
+  they $\text{work}$ on this page.
